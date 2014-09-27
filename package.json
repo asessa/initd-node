@@ -1,0 +1,33 @@
+{
+	"name": "initd-node",
+	"preferGlobal": true,
+	"version": "0.0.1",
+	"author": "Andrea Sessa <andrea.sessa@gmail.com>",
+	"homepage": "https://github.com/asessa/initd-node",
+	"description": "Node.js module to create a debian based startup script for your application.",
+	"bin": {
+		"initd-node": "./bin/initd-node.js"
+	},
+	"main": "lib/main.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/asessa/initd-node"
+	},
+	"dependencies":{
+		"colors": "*",
+		"commander": "*",
+		"swig": "*"
+	},
+	"keywords": [
+		"debian",
+		"ubuntu",
+		"initd",
+		"start-stop-daemon"
+	],
+	"analyze": false,
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"bugs": {
+		"url": "https://github.com/asessa/initd-node/issues"
+	}
+}
