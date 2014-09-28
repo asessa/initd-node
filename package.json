@@ -1,7 +1,7 @@
 {
 	"name": "initd-node",
 	"preferGlobal": true,
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "Andrea Sessa <andrea.sessa@gmail.com>",
 	"homepage": "https://github.com/asessa/initd-node",
 	"description": "Node.js module to create a debian based startup script for your application.",
