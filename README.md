@@ -17,7 +17,7 @@ To generate a startup script, use following options:
 
 			-a, --app			Path to node.js main js file
 			-e, --env			Export NODE_ENV with ENV value (default production)
-			-n, --name			Application name
+			-n, --appName			Application name
 			-g, --group			Group (default current group id)
 			-u, --user			User (default current user id)
 
