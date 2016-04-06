@@ -20,6 +20,7 @@ To generate a startup script, use following options:
 			-n, --name			Application name
 			-g, --group			Group (default current group id)
 			-u, --user			User (default current user id)
+			-p, --path			Path to node.js executable (default current instance)
 
 If you don't specify any option, initd-node try to load from the package.json file on current directory.
 
